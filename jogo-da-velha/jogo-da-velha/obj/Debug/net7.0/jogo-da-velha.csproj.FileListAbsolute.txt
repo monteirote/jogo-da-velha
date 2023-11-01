@@ -1,0 +1,15 @@
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/bin/Debug/net7.0/jogo-da-velha
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/bin/Debug/net7.0/jogo-da-velha.deps.json
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/bin/Debug/net7.0/jogo-da-velha.runtimeconfig.json
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/bin/Debug/net7.0/jogo-da-velha.dll
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/bin/Debug/net7.0/jogo-da-velha.pdb
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/obj/Debug/net7.0/jogo-da-velha.csproj.AssemblyReference.cache
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/obj/Debug/net7.0/jogo-da-velha.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/obj/Debug/net7.0/jogo-da-velha.AssemblyInfoInputs.cache
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/obj/Debug/net7.0/jogo-da-velha.AssemblyInfo.cs
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/obj/Debug/net7.0/jogo-da-velha.csproj.CoreCompileInputs.cache
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/obj/Debug/net7.0/jogo-da-velha.dll
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/obj/Debug/net7.0/refint/jogo-da-velha.dll
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/obj/Debug/net7.0/jogo-da-velha.pdb
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/obj/Debug/net7.0/jogo-da-velha.genruntimeconfig.cache
+/Users/andremonteiro/Desktop/projects/solo-projects/jogo-da-velha-csharp/jogo-da-velha/jogo-da-velha/obj/Debug/net7.0/ref/jogo-da-velha.dll
