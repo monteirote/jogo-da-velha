@@ -6,12 +6,11 @@
         String[] linha2 = { " ", " ", " " };
         String[] linha3 = { " ", " ", " " };
 
-        String jogador1, jogador2, vencedor;
-
-        vencedor = "";
+        String jogador1, jogador2, vencedor = "";
 
         Console.WriteLine("Qual o nome do jogador 1? (X)");
         jogador1 = Console.ReadLine();
+
         Console.WriteLine("Qual o nome do jogador 2? (O)");
         jogador2 = Console.ReadLine();
 
@@ -29,7 +28,6 @@
 
             checarSeJogoAcabou(ref continuarJogo, linha1, linha2, linha3, ref vencedor);
 
-            Console.WriteLine(vencedor);
 
             if (continuarJogo)
             {
@@ -48,7 +46,7 @@
         {
             Console.WriteLine("O jogador {0} venceu o jogo!", jogador2);
         }
-        else if(vencedor == "empate")
+        else if (vencedor == "empate")
         {
             Console.WriteLine("O jogo acabou em empate");
         }
@@ -80,11 +78,18 @@
             Console.WriteLine("E qual linha?");
             linha = int.Parse(Console.ReadLine());
 
+
             if (coluna < 1 || coluna > 3 || linha < 1 || linha > 3)
             {
                 posicoesInvalidas = true;
                 Console.WriteLine("Posições inválidas, por favor digite novamente.");
-            } else
+            }
+            else if ((linha == 1 && linha1[coluna - 1] != " ") || (linha == 2 && linha2[coluna - 1] != " ") || (linha == 3 && linha3[coluna - 1] != " "))
+            {
+                posicoesInvalidas = true;
+                Console.WriteLine("Essa posição já foi marcada anteriormente, escolha outra.");
+            }
+            else 
             {
                 marcarPosicao(simbolo, linha, coluna, ref linha1, ref linha2, ref linha3);
             }
@@ -141,7 +146,7 @@
             return;
         }
 
-        if (linha1[2] == " " && (linha1[2] == linha2[1] && linha2[1] == linha3[0]))
+        if (linha1[2] != " " && (linha1[2] == linha2[1] && linha2[1] == linha3[0]))
         {
             continuarJogo = false;
             vencedor = linha1[2];
@@ -184,7 +189,6 @@
                 return false;
             }
         }
-        Console.Write("acabou");
         return true;
     }
 }
